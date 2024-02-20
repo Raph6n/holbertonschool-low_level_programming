@@ -15,6 +15,3 @@ printf("%d", base10);
 printf("\n");
 return (0);
 }
-
-  
-  
