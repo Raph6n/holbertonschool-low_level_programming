@@ -9,11 +9,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if( n < 0 )
-	  printf ("Positive Number: %d\n", PositiveNumber);
-	else if( n > 0 )
-	  printf ("Negativenumber: %d\n",Negativenumber);
-	else if( n = 0 )
-	  printf ("Exact value of n is: %d\n", n );
+	if ( n < 0 ) {
+	printf ("is positive\n", n)
+	}
+	else if ( n > 0 ) {
+	printf ("is negative\n", n)
+	}
+	else ( n = 0 ) {
+	printf ("is zero\n)", n)
 	return (0);
 }
