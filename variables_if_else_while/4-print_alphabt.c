@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-int main(void)
+        int main(void)
 {
-        char letter;
+	char letter;
 
-        for (letter = 'a'; letter <= 'z'; letter++)
-                putchar(letter);
-	grep (letter 'a' and 'q')
-	  return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
