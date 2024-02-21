@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * - main putchar base 16
  *Return: Always return 0.
  */
