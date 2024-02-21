@@ -3,10 +3,12 @@
 
 int main(void)
 {
-  char print_alphabet;
-  
-  for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
-    putchar('\n');
+  char print_alphabet = 'a';
+  while (print_alphabet <= 'z')
+    putchar(alphabet);
+  alphabet++;
 
+  putchar('\n');
   return (0);
+
 }
