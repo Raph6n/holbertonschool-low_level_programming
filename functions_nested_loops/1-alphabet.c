@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the main
- * Return: Always 0.
+ *print_alphabet - print alphabet 
+ * Description: printing alphabet with putchar
+ *Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char letter;
 
