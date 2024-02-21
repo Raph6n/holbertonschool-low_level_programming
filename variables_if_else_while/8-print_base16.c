@@ -3,12 +3,12 @@
 /**
  *
  * - main putchar base 16
- *
+ *Return: Always return 0.
  */
 
 int main(void)
 {
-double base;
+float base;
 
 for (base = 0; base < 16; base++)
 putchar((base % 16) + '0');
