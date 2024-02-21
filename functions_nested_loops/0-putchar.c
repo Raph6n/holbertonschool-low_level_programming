@@ -2,13 +2,13 @@
 
 int main(void)
 {
-  putchar ("p");
-  putchar ("u");
-    putchar ("t");
-    putchar ("c");
-    putchar ("h");
-    putchar ("a");
-    putchar ("r");
+ int putchar ("p");
+ int putchar ("u");
+   int putchar ("t");
+   int putchar ("c");
+   int putchar ("h");
+   int putchar ("a");
+   int putchar ("r");
 
     return (0);
 }
