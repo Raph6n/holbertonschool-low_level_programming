@@ -8,10 +8,14 @@
 
 int main(void)
 {
-float base;
+int basen;
+char basel;
 
-for (base = 0; base < 16; base++)
-putchar((base % 16) + '0');
+for (basen = 0; basen < 10; basen++)
+putchar((basen % 10) + '0');
+
+for (basel = 'a'; basel <= 'f'; basel++)
+putchar(basel);
 
 putchar('\n');
 
