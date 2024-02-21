@@ -8,8 +8,8 @@ int main(void)
     putchar ("t");
     putchar ("c");
     putchar ("h");
-    putchar ("a);
-    putchar ("r);
+    putchar ("a");
+    putchar ("r");
 
     return (0);
 }
