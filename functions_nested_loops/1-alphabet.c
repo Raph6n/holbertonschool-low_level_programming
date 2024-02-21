@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- *print_alphabet - print alphabet 
+ * print_alphabet - print alphabet
  * Description: printing alphabet with putchar
- *Return: void
+ *
+ * Return: void
  */
 
 void print_alphabet(void)
