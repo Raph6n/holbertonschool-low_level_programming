@@ -1,20 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
-/**                                                                                                                                                                           
- * void print_alphabet(void)                                                                                                                                                  
- *                                                                                                                                                                            
- */
-
 void print_alphabet(void)
 {
-char print_alphabet = ('a');
+	char letter;
 
-while (print_alphabet <= 'z')
-{
-putchar(print_alphabet);
-print_alphabet++;
-}
-putchar('\n');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
 
+	_putchar('\n');
 }
