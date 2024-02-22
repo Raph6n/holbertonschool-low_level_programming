@@ -3,11 +3,9 @@
 int _isalpha(int c)
 
 {
-  if (c > a && c < z)
+  if ( c >= 'a' && <= 'z')
     {
       return (1);
-	}
-  else if (c = c)
-    {
-      return (0);
     }
+  return (0);
+}
