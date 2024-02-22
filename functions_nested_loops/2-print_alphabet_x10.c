@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - print alphabet x10 with putchar
+ * main - print alphabet x10 with putchar
  *
  * Description: printing alphabet x10 with putchar
  *
