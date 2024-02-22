@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_alphabet - print alphabet
@@ -8,7 +7,7 @@
  * Return: void
  */
 
-void print_alphabet_x10(void);
+int _islower(int c);
 		    {
 char letter;
 

@@ -5,6 +5,7 @@
  * Return: 1 or 0
  * @c: variable
  */
+
 int _isalpha(int c)
 
 {
