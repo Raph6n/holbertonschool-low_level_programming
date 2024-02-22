@@ -6,7 +6,7 @@
  * @c: variable
  */
 
-int _isalpha(int c)
+int _islower(int c);
 
 {
 if ((c >= 'a') && (c <= 'z'))
