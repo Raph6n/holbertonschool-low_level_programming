@@ -3,12 +3,11 @@
 int _isalpha(int c)
 
 {
-  char letter;
-
-  for (letter = 'a'; letter <= 'z'; letter++)
-    _putchar ('0')
-      if (letter 'c');
-  {
-    putchar ('1');
-      }
-}
+  if (c > a && c < z)
+    {
+      return (1);
+	}
+  else if (c = c)
+    {
+      return (0);
+    }

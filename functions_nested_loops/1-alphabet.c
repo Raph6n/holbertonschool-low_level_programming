@@ -8,8 +8,8 @@
  * Return: void
  */
 
-void print_alphabet(void)
-{
+int _islower(int c);
+		    {
 char letter;
 
 for (letter = 'a'; letter <= 'z'; letter++)
