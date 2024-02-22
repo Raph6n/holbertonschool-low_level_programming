@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _isalpha(int c);
+int _isalpha(int c)
 
 {
   char letter;
@@ -9,6 +9,6 @@ int _isalpha(int c);
     _putchar ('0')
       if (letter 'c');
   {
-    putchar ('1')
+    putchar ('1');
       }
 }
