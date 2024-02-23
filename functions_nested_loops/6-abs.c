@@ -1,11 +1,15 @@
 #include "main.h"
 
-int _abs(int);
+int _abs(int number)
 
 {
-  if ( _abs < '0') && ( _abs > '0'))
-  {
-    _putchar (%d);
-  }
-return 0
+  if (number > 0)
+    {
+      number = number * -1;
+	}
+  else if (number < 0)
+    {
+      number = number -1;
+	}
+  return (number);
 }
