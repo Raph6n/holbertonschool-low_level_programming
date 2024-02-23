@@ -1,6 +1,0 @@
-#include "main.h"
-
-int add(int nombre1, int nombre2)
-
-{
-  
