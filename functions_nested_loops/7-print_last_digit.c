@@ -3,12 +3,18 @@
 int print_last_digit(int lst)
 
 {
-  int lst2;
-
-  lst2 = lst % 10;
-  _putchar('0' + lst2);
-
-  return lst2;
+  if (lst >=  0)
+    {
+      lst = lst % 10;
+  _putchar('0' + lst);
+}
+  else if (lst < 0)
+    {
+      lst = lst % 10 * (-1);
+   
+   _putchar('0' + lst);
+   }
+  return lst;
     }
  
   
