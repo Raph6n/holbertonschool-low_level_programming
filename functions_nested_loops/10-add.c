@@ -3,5 +3,5 @@
 int add(int nombre1, int nombre2)
 
 {
-  return nombre1 + nombre 2;
+  return nombre1 + nombre2;
 }
