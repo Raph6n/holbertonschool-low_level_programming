@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_to_98 - check the code
+ * description: from n to 98
  * @n: variable 98
+ *
  * Return: Always 0.
  */
 
