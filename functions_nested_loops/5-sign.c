@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_sign - imprimer sign
+ * Return: 1,0,-1
+ * @n: betty
+
 int print_sign(int n)
 
 {
