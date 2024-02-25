@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _abs - nombre
+ * Return: nombre
+ * @number: nombre
+ */
+
 int _abs(int number)
 
 {
