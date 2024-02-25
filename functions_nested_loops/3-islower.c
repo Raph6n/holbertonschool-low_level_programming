@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check letter c lowercase
+ *  _islower - check letter c lowercase
  * Return: 1 or 0
  * @c: variable
  */
