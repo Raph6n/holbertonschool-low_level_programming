@@ -3,12 +3,11 @@
 void print_line(int n)
 
 {
-  for (n = '0'; n < '0'; n++);
+ int a;
 
-    _putchar ('\n')
-      if (n = '0')
-      else if (n = '2')
-      else if (n = '10')
-      else if (n = '-4')
-	_putchar ('_');
-	  }
+	for (a = 0; a < n; a++)
+	{
+		_putchar('_');
+	}
+	_putchar('\n');
+}
