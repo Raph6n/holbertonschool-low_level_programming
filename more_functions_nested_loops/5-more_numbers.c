@@ -3,7 +3,7 @@
 void more_numbers(void)
 
 {
-  char b = 0;
+  int b = 0;
   char a;
   
   while (b++ <= '9')
