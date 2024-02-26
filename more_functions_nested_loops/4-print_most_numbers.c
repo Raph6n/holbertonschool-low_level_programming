@@ -11,6 +11,6 @@ void print_most_numbers(void)
     }
 if (!(a == '2' || a == '4'))
     {
-      return (0);
+      _putchar (a);
     }
 }
