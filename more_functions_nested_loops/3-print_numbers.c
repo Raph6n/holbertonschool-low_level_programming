@@ -1,14 +1,20 @@
 #include "main.h"
 
-void print_numbers(void)
+/**
+ * print_numbers - nothing
+ * return: a la ligne
+ * 
+ */  
+
+Void print_numbers(void)
 
 {
 
-  int a;
+int a;
   
 for (a = '0'; a <= '9'; a++)
-  {
-      _putchar(a);
-  }
- _putchar ('\n');
+{
+_putchar(a);
+}
+_putchar ('\n');
 }
