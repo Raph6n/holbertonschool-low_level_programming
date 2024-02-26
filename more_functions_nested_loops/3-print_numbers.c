@@ -1,13 +1,12 @@
 #include "main.h"
 
-int print_numbers(int)
+void print_numbers(void)
 
 {
 
-  if ((a >= '0') && ( a <= '9'))
-
+  for ((a >= '0') && (a <= '9'))
     {
-      (a++);
-	}
-  return (a);
+      _putchar (%d);
+    }
+  return (0);
 }
