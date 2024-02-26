@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isdigit - explain
- * 
+ * _isdigit - explain 
  * return: 1 or 0.
  *
  * @c: explain
