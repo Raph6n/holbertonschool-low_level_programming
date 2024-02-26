@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * _isdigit - explain 
- * return: 1 or 0.
+ * _isdigit - explain
+ * 
+ * @c: nombre c
  *
- * @c: explain
+ * return: 1 or 0.
  */
 
 int _isdigit(int c)

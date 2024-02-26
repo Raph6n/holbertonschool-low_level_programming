@@ -2,9 +2,13 @@
 #include <stdio.h>
 
 /**
- *  _isupper: A a Z en upper
- * Return: 1 ou 0
- * @c: more and more
+ * i_supper - uppercase
+ *
+ *  description: uppercase caracter
+ *
+ * @c: check the code
+ *
+ * Return: 1 or 0.
  */
 
 int _isupper(int c)
