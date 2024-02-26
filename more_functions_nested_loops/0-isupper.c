@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  i_supper: A a Z en upper
+ *  _isupper: A a Z en upper
  * Return: 1 ou 0
  * @c: more and more
  */
