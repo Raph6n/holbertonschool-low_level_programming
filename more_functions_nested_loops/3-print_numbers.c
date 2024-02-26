@@ -1,6 +1,6 @@
 #include "main.h"
 
-int print_numbers(int a)
+int print_numbers(int)
 
 {
 
