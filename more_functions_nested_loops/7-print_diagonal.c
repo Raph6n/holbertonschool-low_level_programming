@@ -16,10 +16,11 @@ void print_diagonal(int n)
 		{
 		  if (a == b)
 		    _putchar ('\\');
+		  
 		  else (a > b)
 			 _putchar(' ');
 		}
-	      _putchar('\n')
+	      _putchar('\n');
 		}
 	}
     }
