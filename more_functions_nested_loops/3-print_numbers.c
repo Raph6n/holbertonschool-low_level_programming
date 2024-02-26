@@ -1,10 +1,8 @@
 #include "main.h"
 
-void print_numbers(void)
+int a print_numbers(int a)
 
 {
-
-  int a;
 
   if ((a >= '0') && ( a <= '9'))
 
