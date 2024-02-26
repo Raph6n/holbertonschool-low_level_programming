@@ -10,9 +10,9 @@ _putchar('\n');
 }
 else
 {
-int straight;
+int a;
 
- for (i = 1; i <= n; i++)
+ for (a = 1; a <= n; a++)
 {
 _putchar('_');
 }
