@@ -14,7 +14,7 @@ int main(void)
   int d = 1;
     int e = 2;
     
-    swap(&d, &e);
+    swap_int(&d, &e);
     printf("d = %d, e = %d\n" d,e);
 
     return (0);
