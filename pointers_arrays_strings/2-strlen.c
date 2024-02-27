@@ -4,11 +4,11 @@
 int _strlen(char *s)
 
 {
-    int length = 0;
+    int compter = 0;
 while (*s != '\0')
   {
-length++;
+compter++;
 s++;
     }
-    return length;
+    return compter;
 }
