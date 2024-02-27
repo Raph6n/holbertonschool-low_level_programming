@@ -8,3 +8,14 @@ void swap_int(int *a, int *b)
   a* = *b;
   b* = c;
     }
+
+int main(void)
+{
+  int d = 1;
+    int e = 2;
+    
+    swap(&d, &e);
+    printf("d = %d, e = %d\n" d,e);
+
+    return (0);
+}
