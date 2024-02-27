@@ -16,7 +16,7 @@ int main()
   printf("Enter value of d: ");
   scanf("%d" ,&d);
   printf("Enter value of e: ");
-  scanf("%d ,&e);
+  scanf("%d" ,&e);
 
   printf("Befor swapping: d is:%d, e is: %d\n" ,d,e);
 
