@@ -9,10 +9,15 @@
 void print_rev(char *s)
 
 {
-if (*s)
-{
-print_rev(s + 1);
-_putchar(*s);
-}
-}
+
+  char *t = s
+
+    while (*t != '\0')
+      {
+	(t++);
+      }
+  for (t--; t >= s; t--)
+    {
+      _putchar(*t)
+	}
   
