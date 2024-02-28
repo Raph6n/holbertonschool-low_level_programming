@@ -10,6 +10,6 @@ while (str[a] != '\0')
 {
 _putchar(str[a]);
 _putchar('\n');
-i += 2;
+a += 2;
 }
 }
