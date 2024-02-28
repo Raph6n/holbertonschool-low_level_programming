@@ -20,4 +20,5 @@ for (t--; t >= s; t--)
 {
 _putchar(*t);
 }
+ _putchar('\n');
 }
