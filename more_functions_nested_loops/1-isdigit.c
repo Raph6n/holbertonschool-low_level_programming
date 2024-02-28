@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isdigit - explain
- * 
- * @c: nombre c
- *
- * return: 1 or 0.
+ * _isdigit - print digit from 0 to 9
+ * Return: 1 or 0
+ * @c: variable c
  */
 
 int _isdigit(int c)
