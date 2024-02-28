@@ -14,10 +14,10 @@ char *t = s;
 
 while (*t != '\0')
 {
-(t++);
+t++;
 }
 for (t--; t >= s; t--)
 {
 _putchar(*t);
 }
-  
+}
