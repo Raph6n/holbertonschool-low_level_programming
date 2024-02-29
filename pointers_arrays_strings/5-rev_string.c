@@ -4,10 +4,11 @@
 /**
  * rev_string - print reverse string not easy
  * Return: 0
- * @s: variable s
+ * @s: variable s; on initie la valeur point
+ *-pointee par t a s. tant que s ou *t nest pas nul, on incremante 
  */
 
-void rev_string(char *s)
+void  rev_string(char *s)
 
 {
 char *t = s;
