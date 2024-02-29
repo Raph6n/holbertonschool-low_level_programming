@@ -7,16 +7,16 @@
  * 
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *low)
 
 {
 int a;
 
-for (a = 0; str[a] != '\0'; i++)
+for (a = 0; low[a] != '\0'; i++)
 {
-if (str[a] >= 'a' && str[a] <= 'z')
+if (low[a] >= 'a' && low[a] <= 'z')
 {
-str[a] = str[a] - ('a' - 'A');
+low[a] = low[a] - ('a' - 'A');
 }
 }
 }
