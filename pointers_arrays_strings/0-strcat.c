@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * _strcat - suivi de 2 strings
+ * return: variable stock
+ * @dest: variable 1
+ *@src: variable 2
+ */
+
 char *_strcat(char *dest, char *src)
 
 {
