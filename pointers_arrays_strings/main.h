@@ -19,3 +19,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 
 char *_strcat(char *dest, char *src);
+
+char *string_toupper(char *);
