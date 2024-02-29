@@ -5,7 +5,7 @@ char *_strcat(char *dest, char *src)
 
 {
 
-char stock = dest;
+char *stock = dest;
  while (*dest != '\0')
 {
 dest++;
