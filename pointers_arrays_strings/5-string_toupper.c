@@ -7,16 +7,4 @@
  * 
  */
 
-char *string_toupper(char *low)
-
-{
-int a;
-
-for (a = 0; low[a] != '\0'; a++)
-{
-if (low[a] >= 'a' && low[a] <= 'z')
-{
-low[a] = low[a] - ('a' - 'A');
-}
-}
-}
+char *string_toupper(
