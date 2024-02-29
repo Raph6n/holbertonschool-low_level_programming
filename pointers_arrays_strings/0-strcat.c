@@ -5,10 +5,16 @@ char *_strcat(char *dest, char *src)
 
 {
 
-  strcat(dest, src);
+  char *a = dest;
 
-  printf(%c,dest);
-  printf(%c, src);
-
-  return: 0;
-}
+  while (*a != '\0')
+    {
+    a++;
+    }
+  while (*src != '\0')
+    {
+      *a=*src;
+      *a++;
+      *src++
+	}
+  
