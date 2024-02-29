@@ -30,9 +30,10 @@ printf("%d", a);
 }
 if (a != 100)
 {
-  printf(" ");
+printf(" ");
 }
- printf('\n');
+}
+printf('\n');
 
 return: (0)
 }
