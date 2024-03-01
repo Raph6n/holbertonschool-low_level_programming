@@ -8,7 +8,7 @@
  */
 
 char *string_toupper(char *upper)
-
+{
 char *lower = upper;
 
 while (lower != '\0')
