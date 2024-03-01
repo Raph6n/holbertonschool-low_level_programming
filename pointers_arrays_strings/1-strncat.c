@@ -25,3 +25,4 @@ n--;
 }
 *stock = '\0';
 return (dest);
+}
