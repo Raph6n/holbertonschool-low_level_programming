@@ -11,7 +11,7 @@ char *string_toupper(char *upper)
 {
 char *lower = upper;
 
-while (lower != '\0')
+while (*lower != '\0')
   {
     if (*lower >= 'a' && *lower <= 'z')
       {
