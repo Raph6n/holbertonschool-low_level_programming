@@ -6,7 +6,7 @@
  * Return: dest
  * @dest: var char 1
  * @src: var char 2
- * @n: var int 
+ * @n: var int
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -18,7 +18,7 @@ while (*stock != '\0')
 {
 stock++;
 }
- while (*src != '\0' && n > 0)
+while (*src != '\0' && n > 0)
 {
 *stock++ = *src++;
 n--;
