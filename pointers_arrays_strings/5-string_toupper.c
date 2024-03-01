@@ -7,10 +7,7 @@
  * 
  */
 
-char *string_toupper(char *)
-
-  char *lower;
-char *upper;
+char *string_toupper(char *upper)
 
 char *lower = upper;
 
