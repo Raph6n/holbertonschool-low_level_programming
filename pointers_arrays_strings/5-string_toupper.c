@@ -7,4 +7,20 @@
  * 
  */
 
-char *string_toupper(
+char *string_toupper(char *)
+
+  char *lower;
+char *upper;
+
+char *lower = upper;
+
+while (lower != '\0')
+  {
+    if (*lower >= 'a' && *lower <= 'z')
+      {
+	*lower = *lower - 'a' + 'A';
+      }
+    lower++;
+  }
+return upper;
+}
