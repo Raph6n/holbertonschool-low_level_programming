@@ -1,6 +1,14 @@
 #include "main.h"
 #include "main.h"
 
+/**
+ * *_strncat - concatenate 2
+ * Return: dest
+ * @dest: var char 1
+ * @src: var char 2
+ * @n: var int 
+ */
+
 char *_strncat(char *dest, char *src, int n)
 
 {
@@ -16,4 +24,4 @@ stock++;
 n--;
 }
 *stock = '\0';
-return (dest)
+return (dest);
