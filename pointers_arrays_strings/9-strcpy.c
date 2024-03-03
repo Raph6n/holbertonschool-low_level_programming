@@ -15,10 +15,10 @@ char *basedest = dest;
   
 while (*src != '\0')
 {
-*dst =*src;
+*dest =*src;
 src++;
 dest++;
 }
-*dst = '\0';
+*dest = '\0';
 return (basedest);
 }
