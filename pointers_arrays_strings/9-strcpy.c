@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy with null
+ * _strcpy - copy with null return
  * return: basedest
  * @dest: dest
  * @src: src
