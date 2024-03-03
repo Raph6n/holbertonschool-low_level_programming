@@ -7,8 +7,8 @@ char *cap_string(char a*)
 int majnext = 1;
 int i;
 
-for (i = 0; a[i] != '\0'; i++;)
-
+for (i = 0; a[i] != '\0'; i++)
+{
 if (majnext && (a[i] >= 'a' && a[i] <= 'z'))
 {
 a[i] -= ('a' - 'A');
