@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - suivi de 2 strings
+ * _strcat - suivi de 2 strings
  * return: variable stock
  * @dest: variable 1
  * @src: variable 2
