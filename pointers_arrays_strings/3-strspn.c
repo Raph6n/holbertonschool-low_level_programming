@@ -21,6 +21,6 @@ char *c = accept;
      c++;
    }
  if (*c == 0)break;
- a++;
+ accept++;
  }
 }
