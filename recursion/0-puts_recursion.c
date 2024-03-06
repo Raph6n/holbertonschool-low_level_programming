@@ -5,7 +5,7 @@
  * _puts_recursion - recursion fonction
  * return: void
  *
- * @s:var 
+ * @s:var
  */
 
 
