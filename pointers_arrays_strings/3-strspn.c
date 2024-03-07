@@ -3,7 +3,7 @@
 
 /**
  * _strspn - fonction
- * return: i
+ * Return: i
  * @s: var char 1
  *@accept: var char 2
  */

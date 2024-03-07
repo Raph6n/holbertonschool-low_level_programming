@@ -3,7 +3,7 @@
 
 /**
  * _strpbrk - fonction
- * return: 0
+ * Return: 0
  *@s: var char 1
  *@accept: var char 2
  */

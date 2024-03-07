@@ -3,6 +3,7 @@
 
 /**
  * _memset - fonction
+ * Return: s
  * @s: var char 1
  * @b: var char 2
  * @n: var int 1
