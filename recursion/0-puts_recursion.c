@@ -3,7 +3,7 @@
 
 /**
  * _puts_recursion - recursion fonction
- * return: void
+ * Return: void
  *
  * @s:var
  */

@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - fction
- * return: ff
+ * _pow_recursion - fction qui retourne 2 entiers
+ * Return: ff
  * @x: var 1
  * @y: var 2
  */

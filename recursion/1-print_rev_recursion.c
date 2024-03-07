@@ -4,7 +4,7 @@
 /**
  * _print_rev_recursion - fction
  * @s: var
- * return: void
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)

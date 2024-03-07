@@ -3,7 +3,7 @@
 
 /**
  * _strlen_recursion - fonction rec
- * return: 0
+ * Return: 0
  * @s: var char
  */
 

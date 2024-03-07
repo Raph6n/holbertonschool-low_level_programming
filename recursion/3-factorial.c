@@ -3,7 +3,7 @@
 
 /**
  * factorial - fction
- * return: depend
+ * Return: depend
  * @n: variable
  */
 
