@@ -3,7 +3,7 @@
 
 /**
  * _strcat - suivi de 2 strings
- * return: variable stock
+ * Return: variable stock
  * @dest: variable 1
  * @src: variable 2
  */

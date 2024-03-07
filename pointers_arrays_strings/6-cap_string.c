@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * cap_string - fonction
+ * @a: var char
+ * Return: a
+ */
+
 char *cap_string(char *a)
 
 {
@@ -13,7 +19,7 @@ if (majnext && (a[i] >= 'a' && a[i] <= 'z'))
 {
 a[i] -= ('a' - 'A');
 }
-if (a[i] == ' ' || a[i] == '\t' || a[i] == '\0' || a[i] == ','||
+if (a[i] == ' ' || a[i] == '\t' || a[i] == '\0' || a[i] == ',' ||
 a[i] == ';' || a[i] == '.' || a[i] == '!' || a[i] == '?' ||
 a[i] == '"' || a[i] == '(' || a[i] == ')' || a[i] == '{' || a[i] == '}')
 {
