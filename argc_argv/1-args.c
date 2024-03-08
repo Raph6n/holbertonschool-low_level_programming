@@ -16,7 +16,7 @@ int i;
 
 for (i = 1; i < argc;i++)
 {
-compteur++
+compteur++;
 }
 return(0);
 }
