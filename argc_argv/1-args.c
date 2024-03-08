@@ -11,8 +11,12 @@
 int main(int argc,char *argv[])
 
 {
+int compteur = 0;
+int i;
 
-printf("%d\n", argc - 1);
-
-return (0);
+for (i = 1; i < argc;i++)
+{
+compteur++
+}
+return(0);
 }
