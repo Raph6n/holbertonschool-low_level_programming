@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 
 /**
  * main - fction
  * @argc: var 
- * @argv; var
+ * @argv: var
 Return: 0
 */
 
