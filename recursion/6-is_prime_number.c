@@ -7,7 +7,7 @@ int is_prime_number(int n)
   if (n <= 1) return 0;
   if (n <= 3) return 1;
 
-int i;
+
 
  for (i = 2; i * i <= n; i++)
    {
@@ -15,3 +15,11 @@ int i;
    }
      return (1);
    }
+
+int main()
+{
+  printf("%d\n", is_prime_number (5));
+  printf("%d\n", is_prime_number (12));
+
+  return (0);
+}
