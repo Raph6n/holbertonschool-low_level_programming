@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * create_array - fonction
+ * @size: var int
+ * @c: var char
+ * Return: a
+ */
+
 char *create_array(unsigned int size, char c)
 
 {
