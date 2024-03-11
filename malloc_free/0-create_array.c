@@ -20,7 +20,7 @@ return (NULL);
    }
  for (i = 0; i < size; i++)
    {
-     a[i] = c
+     a[i] = c;
        }
  return (a);
 }
