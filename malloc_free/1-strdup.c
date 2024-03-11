@@ -17,9 +17,9 @@ char *b;
 
 if (str == NULL)
 {
-return (NULL)
+return (NULL);
 }
- while (str[i])
+while (str[i])
 {
 i++;
 }
