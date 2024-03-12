@@ -26,7 +26,7 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-for (i = 0; s[i]; i++)
+for (i = 0; s1[i]; i++)
 {
 taille_1++;
 }
@@ -38,14 +38,15 @@ t1t2 = malloc(sizeof(char) * (taille_1 + taille_2 + 1));
 if (t1t2 == NULL)
 {
 return (NULL);
-for (i = 0; s[i]; i++)
+}
+for (i = 0; s1[i]; i++)
 {
 t1t2[ii++] = s1[i];
 }
 for (i = 0; s2[i]; i++)
 {
-t1t2[ii++] = s2[i]
+t1t2[ii++] = s2[i];
 }
-t1t2[i] = '\0'
+t1t2[i] = '\0';
 return (t1t2);
 }
