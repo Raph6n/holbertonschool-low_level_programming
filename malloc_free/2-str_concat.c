@@ -15,6 +15,8 @@ char *str_concat(char *s1, char *s2)
 int taille_1 = 0;
 int taille_2 = 0;
 int i;
+int ii;
+char *t1t2;
 
 if (s1 == NULL)
 {
@@ -24,27 +26,26 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-while (s1[taille_1]
+for (i = 0; s[i]; i++)
 {
 taille_1++;
 }
-while (s2[taille_2])
+for (i = 0; s2[i]; i++)
 {
 taille_2++;
 }
-char *t1t2 =(char )malloc(taille_1 + taille_2 + 1);
+t1t2 = malloc(sizeof(char) * (taille_1 + taille_2 + 1));
 if (t1t2 == NULL)
 {
 return (NULL);
-}
-for (i = 0; i < taille_1; i++)
+for (i = 0; s[i]; i++)
 {
-t1t2[i] = s1[i]
+t1t2[ii++] = s1[i];
 }
-for (i = 0; i < taille_2; i++)
+for (i = 0; s2[i]; i++)
 {
-t1t2[taille_1 + i] = s2[i];
+t1t2[ii++] = s2[i]
 }
-t1t2[taille_1 + taille_2] = '\0';
+t1t2[i] = '\0'
 return (t1t2);
 }
