@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * string_ncontat - fction
+ * @s1: var
+ * @s2: var
+ * @n: var
+ * Return: nouvelle
+ */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
@@ -18,3 +26,17 @@ compteur_2++;
 }
 nouvelle_taille = compte_1 + compte_2 + 1;
  
+nouvelle =(char *)malloc(nouvelle_taille * (sizeof(char));
+if (nouvelle == NULL)
+{
+return (NULL);
+}
+for (i = 0; i < compte_1; i++)
+{
+nouvelle[i] = s1[i];
+}
+for (i = 0; i < compte_2; i++)
+{
+nouvelle[compte_1 + compte_2 = '\0'];
+return (nouvelle);
+}
