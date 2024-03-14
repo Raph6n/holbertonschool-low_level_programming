@@ -2,13 +2,17 @@
 
 /**
  * struct dog - structure
+ * @age: var
+ * @float: var
+ * @owner: var
+ * Return: --
  */
 
 struct dog
 {
-  char *name;
-  float age;
-  char *owner;
+char *name;
+float age;
+char *owner;
 }
   
-  dog;
+dog;
