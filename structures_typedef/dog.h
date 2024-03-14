@@ -11,3 +11,4 @@ struct dog
   char *owner;
 }
   
+  dog;
