@@ -1,11 +1,13 @@
+#ifndef dog_h
+#define dog_h
+
 #include <stdio.h>
 
 /**
  * struct dog - structure
  * @age: var
- * @float: var
+ * @name: var
  * @owner: var
- * Return: --
  */
 
 struct dog
@@ -13,6 +15,12 @@ struct dog
 char *name;
 float age;
 char *owner;
-}
-  
-dog;
+};
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+
+
+
+
+#endif
