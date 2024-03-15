@@ -42,5 +42,6 @@ for (ii = 0; ii < width; ii++)
 {
 grid[i][ii] = 0;
 }
+}
 return (grid);
 }
