@@ -2,11 +2,19 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * alloc_grid - fction
+ * @width: var
+ * @height: var
+ * Return: depend
+ */
+
+
 int **alloc_grid(int width, int height)
 
 {
-  int **grid;
-  int i, ii, y;
+int **grid;
+int i, ii, y;
 
 if (width <= 0 || height <= 0)
 {
@@ -19,8 +27,8 @@ return (NULL);
 }
 for (i = 0; i < height; i++)
 {
-grid[i] =(int *)malloc(width * sizeof(int));
-}
+grid[i] = (int *)malloc(width * sizeof(int));
+
 if (grid[i] == NULL)
 {
 for (y = 0; y < i; y++)
@@ -36,4 +44,3 @@ grid[i][ii] = 0;
 }
 return (grid);
 }
-  
