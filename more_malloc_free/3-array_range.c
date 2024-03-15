@@ -20,7 +20,7 @@ if (min > max)
 return (NULL);
 }
 ecart = max - min + 1;
-p = malloc(ecart * sizeof(*p));
+p = malloc(ecart *sizeof(*p));
 
 if (p == NULL)
 {
@@ -30,4 +30,3 @@ for (i = 0; i < ecart; i++)
 p[i] = min + i;
 return (p);
 }
-   
