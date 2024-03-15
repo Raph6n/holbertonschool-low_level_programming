@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "dog.h"
 
+/**
+ * print_dog - fction
+ * @d: var pointeur
+ * Return: depend
+ */
+
 void print_dog(struct dog *d)
 
 {
