@@ -19,14 +19,14 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-p =(char*)malloc(nmemb * size);
+p = (char *)malloc(nmemb * size);
 if (p == NULL)
 {
 return (NULL);
 }
-for ( i = 0; i < nmemb * size; i++)
+for (i = 0; i < nmemb * size; i++)
 {
 p[i] = 0;
 }
-return(void *)p;
+return ((void *)p);
 }
