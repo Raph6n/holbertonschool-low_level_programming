@@ -2,31 +2,24 @@
 #include "main.h"
 #include <stdlib.h>
 
-/**
- * array_range - fction
- * @min: var
- * @max: var
- * Return: p
- */
-
-int *array_range(int min, int max)
-
+int **alloc_grid(int width, int height)
 {
-int *p;
-int ecart, i;
+  int **grid;
+  int i, ii;
 
-if (min > max)
+if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-ecart = max - min + 1;
-p = malloc(ecart *sizeof(*p));
-
-if (p == NULL)
+grid = (int **)malloc(height * sizeof(int *));
+if (grid == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < ecart; i++)
-p[i] = min + i;
-return (p);
-}
+ for (i = 0; i < height; i++)
+   {
+     grid[i] =(int *)malloc(width * sizeof(int));
+     ]
+   if (grid[i] == NULL)
+     {
+       for
