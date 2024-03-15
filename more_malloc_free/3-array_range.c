@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * array_range - fction
@@ -8,11 +9,12 @@
  * Return: p
  */
 
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 
 {
 int *p;
 int ecart, i;
+
 if (min > max)
 {
 return (NULL);
@@ -24,10 +26,8 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < ecart; min++, i++)
-{
-p[i] = min;
+for (i = 0; i < ecart; i++)
+p[i] = min + i;
 return (p);
-}
 }
    
