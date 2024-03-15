@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * string_ncontat - fction
+ * string_nconcat - fction all
  * @s1: var
  * @s2: var
  * @n: var
@@ -25,8 +25,7 @@ while (s2 != NULL && s2[compte_2] != '\0' && compte_2 < n)
 compte_2++;
 }
 nouvelle_taille = compte_1 + compte_2 + 1;
- 
-nouvelle =(char *)malloc(nouvelle_taille * sizeof(char));
+nouvelle = (char *)malloc(nouvelle_taille *sizeof(char));
 if (nouvelle == NULL)
 {
 return (NULL);
