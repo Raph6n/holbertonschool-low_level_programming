@@ -3,18 +3,22 @@
 int main(void)
 
 {
-int number;
+int number1, number 2;
+for (number1 = 0; number1 <= 8; number1++)
+{
+for (number2 = number1 + 1; number2 <= 9; number2++)
+{
+putchar('0' + number1);
+putchar('0' + number2);
 
-for (number = 0; number <=9; number++)
+if (!(number1 == 8 && number2 == 9))
 {
-putchar (number + '0');
- }  
-if ( number != 9)
-{
-putchar(',');
+putchar(','); 
 putchar(' ');
 }
-putchar('\n');
-
-return (0);
 }
+}
+putchar('\n');
+return 0;
+}
+
