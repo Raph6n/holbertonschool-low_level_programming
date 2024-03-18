@@ -4,8 +4,9 @@
 void print_name(char *name, void (*f)(char *))
 
 {
-  if (name);
+  if (name != NULL && f != NULL)
 
-  {
-    printf("My name is %s\n", name);
-  }
+{
+printf("My name is %s\n", name);
+}
+}
