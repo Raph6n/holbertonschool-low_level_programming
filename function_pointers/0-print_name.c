@@ -4,3 +4,8 @@
 void print_name(char *name, void (*f)(char *))
 
 {
+  if (name);
+
+  {
+    printf("My name is %s\n", name);
+  }
