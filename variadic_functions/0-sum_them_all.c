@@ -18,12 +18,12 @@ if (n == 0)
 {
 return (0);
 }
-va_start (lesautres, n);
+va_start(lesautres, n);
 
 for (i = 0; i < n; i++)
 {
 somme += va_arg(lesautres, int);
 }
 va_end(lesautres);
-return(somme);
+return (somme);
 }
