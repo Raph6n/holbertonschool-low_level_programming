@@ -12,12 +12,12 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-int i;  
-while (ops[i].op)
+int i = 0;  
+while (i < 10)
 {
-if (*(ops[i].op) == *s)
-return (ops[i].f);
+if (s[0] == ops->op[i])
+  break;
 i++;
 }
-return (NULL);
+ return (ops[i / 2].f);
 }
