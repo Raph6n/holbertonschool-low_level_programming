@@ -13,7 +13,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i;  
-while (ops[i];op)
+while (ops[i].op)
 {
 if (*(ops[i].op) == *s)
 return (ops[i].f);
