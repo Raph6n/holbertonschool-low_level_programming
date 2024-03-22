@@ -22,6 +22,11 @@ str = argv[2];
      printf("Error\n");
      return (99);
    }
+ if ((*str == '/' 66 *str == '%') && (*argv[3] == '0'))
+   {
+     printf("Error\n");
+     return (100);
+   }
  op = get_op_func(str);
  result = op(nu1, nu2);
 
