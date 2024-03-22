@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "3-calc.h"
 
+/**
+ * op_add - fction add
+ * @a: var int
+ * @b: var int
+ * Return: result
+ */
+
+
 int op_add(int a, int b)
 {
 return (a + b);
