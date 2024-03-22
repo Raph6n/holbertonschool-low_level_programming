@@ -4,35 +4,28 @@
 
 int main (int argc, char *argv[])
 {
-int nu1, nu2, result;
+int nu1, nu2;
 int (*op)(int, int);
-char *str;
 
 if (argc != 4)
 {
 printf("Error\n");
 exit(98);
 }
-nu1 = atoi(argv[1]);
-nu2 = atoi(argv[3]);
-str = argv[2];
-
- if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
+if (argv[2][1])
+{
+printf("Error\n");
+return (99);
+}
+ op = get_op_func(argv[2]);
+ if (op == NULL)
    {
      printf("Error\n");
-     exit(99);
+     exit (100);
    }
- if ((*str == '/' || *str == '%') && (*argv[3] == '0'))
-   {
-     printf("Error\n");
-     exit(100);
-   }
- op = get_op_func(str);
- result = op(nu1, nu2);
-
- printf("%d\n", result);
+ nu1 = atoi(argv[1]);
+ nu2 = atoi(argv[3]);
+ printf("%d\n", op(nu1, nu2));
  return (0);
 }
- 
- 
 
