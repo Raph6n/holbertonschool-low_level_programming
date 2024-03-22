@@ -11,7 +11,7 @@ char *str;
 if (argc != 4)
 {
 printf("Error\n");
-return (98);
+exit(98);
 }
 nu1 = atoi(argv[1]);
 nu2 = atoi(argv[3]);
@@ -20,12 +20,12 @@ str = argv[2];
  if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
    {
      printf("Error\n");
-     return (99);
+     exit(99);
    }
  if ((*str == '/' || *str == '%') && (*argv[3] == '0'))
    {
      printf("Error\n");
-     return (100);
+     exit(100);
    }
  op = get_op_func(str);
  result = op(nu1, nu2);
