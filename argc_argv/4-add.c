@@ -2,14 +2,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+/**
+ * main - fction
+ * @argc: var
+ * @argv: var
+ * Return: 0
+ */
 
 int main(int argc, char *argv[])
 
 {
 int sum = 0;
 int i;
-int j; 
+int j;
 if (argc == 1)
 {
 printf("0\n");
@@ -24,7 +29,7 @@ printf("Error\n");
 return (1);
 }
 }
-sum += atoi(argv[i];
+sum += atoi(argv[i]);
 }
 printf("%d\n", sum);
 return (0);
